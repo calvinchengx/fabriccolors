@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='FabricColors',
     version='0.1dev',
-    packages=['fabric-colors', ],
+    packages=['fabriccolors', ],
     license='LICENSE',
     description='The easiest way to set-up your server or virtual machine using pre-defined templates for python fabric',
     long_description=open('README.md').read(),
