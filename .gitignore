@@ -28,3 +28,6 @@ pip-log.txt
 
 # vim
 *.swp
+
+# prevent accidental commit of fabsettings.py file
+fabsettings.py

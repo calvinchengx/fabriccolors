@@ -1,0 +1,14 @@
+import os
+
+PROJECT_ROOT = os.path.dirname(__file__)
+PROJECT_NAME = os.path.dirname(__file__).split('/').pop()
+PROJECT_SITES = {
+    'prod': {
+        'NAME': 'www.domain.com',
+        'IP': 'prod.ip.add.ress',
+    },
+    'dev': {
+        'NAME': 'dev.domain.com',
+        'IP': 'dev.ip.add.ress',
+    }
+}
